@@ -1,0 +1,8 @@
+shap==0.32.1
+pandas==1.0.0
+numpy==1.18.1
+matplotlib==3.1.2
+seaborn==0.10.0
+eli5==0.10.1
+shap==034.0
+sklearn==0.22.1
