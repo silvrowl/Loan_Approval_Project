@@ -6,8 +6,10 @@ This analysis looks into a dataset from a Czech bank. The goal here is to produc
 
 Original with the data dictionary: [link](https://sorry.vse.cz/~berka/challenge/pkdd1999/berka.htm)
 
+Overview of the results: [link](/Loan_Model_Slides.pdf)
 
-## Prerequisite
+
+## Prerequisites
 
 All notebooks are written in Python 3. 
 
@@ -22,16 +24,28 @@ pip3 install -r requirements.txt
 All Ancillary tables were merged onto the loan data to be used as features. A Random Forest Model was used to classify good and bad loans. A SVM and Logisitic Regression Model were also created for comparison. Models were also created on just Small and Big Loans. Classifiers were then used to determine which of the remaining customer should be preapproved for loans. Shap Values were used to assess feature importance after modelling. 
 
 
-## Results
+## Figures
 
-![Amount Historgram](/png_files/Amount_Histogram.png)
+### Loan Analysis
+
+![Amount Histogram](/png_files/Amount_Histogram.png)
 
 ![Money Remaining](/png_files/Loan_Remaining_To_Be_Paid.png)
 
 ![Loan Types](/png_files/Loan_Size_Type_Distribution.png)
 
+### Classifications
+
+![Model Compare](/png_files/model_compare.png)
+
+#### Shapely Values for RF model
+
 ![RF Shaply Values](/png_files/Shap_Values_RF_1.png)
 
+#### Shapely Values for RF model (Small Loans Only < $100000)
+
 ![RF Shaply Values](/png_files/Shap_Values_RF_Small.png)
+
+#### Shapely Values for RF model (Large Loans Only >$100000)
 
 ![RF Shaply Values](/png_files/Shap_Values_RF_Big.png)
