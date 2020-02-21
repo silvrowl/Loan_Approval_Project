@@ -30,9 +30,12 @@ All Ancillary tables were merged onto the loan data to be used as features. A Ra
 
 ![Amount Histogram](/png_files/Amount_Histogram.png)
 
-![Money Remaining](/png_files/Loan_Remaining_To_Be_Paid.png)
-
 ![Loan Types](/png_files/Loan_Size_Type_Distribution.png)
+
+![Money Remaining_1](/png_files/Loan_Remaining_To_Be_Paid.png)
+
+![Money Remaining_2](/png_files/Loan_Remaining_To_Be_Paid_Small.png)
+
 
 ### Classifications
 
